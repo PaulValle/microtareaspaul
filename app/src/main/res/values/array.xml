@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="arrayColores2">
+        <item>Azul</item>
+        <item>Blanco</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+
+
+    </string-array>
+</resources>

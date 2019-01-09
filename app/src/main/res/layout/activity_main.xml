@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnActividad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 1"
+        android:onClick="actividadGrupo1"
+        />
+
+    <Button
+        android:id="@+id/btnActividad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 2"
+        android:onClick="actividadGrupo2"
+        />
+
+    <Button
+        android:id="@+id/btnActividad3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 3"
+        android:onClick="actividadGrupo3"
+        />
+
+    <Button
+        android:id="@+id/btnActividad4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 4"
+        android:onClick="actividadGrupo4"
+        />
+
+    <Button
+        android:id="@+id/btnActividad5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 5"
+        android:onClick="actividadGrupo5"
+        />
+
+    <Button
+        android:id="@+id/btnActividad5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo 5"
+        android:onClick="actividadGrupo5_1"
+        />
+</LinearLayout>

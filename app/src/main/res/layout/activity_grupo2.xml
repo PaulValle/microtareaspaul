@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/txrP1"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="Tema 2 - Pregunta 1" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="283dp"
+        android:layout_height="167dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:timePickerMode="spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/buttonActHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora elegida" />
+
+    <TextView
+        android:id="@+id/txtP3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema 2 - Pregunta 3"/>
+
+    <Spinner
+        android:id="@+id/cmbSpinner"
+        android:layout_width="155dp"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Mostrar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gato:" />
+
+    <TextView
+        android:id="@+id/txtGato"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text=""/>
+
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta 2"
+        android:onClick="irWeb"/>
+
+
+
+
+
+</LinearLayout>
